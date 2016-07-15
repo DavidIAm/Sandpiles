@@ -4,6 +4,6 @@ project(Sandpiles)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-add_subdirectory(main)
+include_directories(libsandpile)
 add_subdirectory(test)
-add_subdirectory(libsandpile)
+add_subdirectory(main)
